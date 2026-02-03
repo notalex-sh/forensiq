@@ -1,0 +1,23 @@
+{
+  "name": "forensiq",
+  "version": "1.0.0",
+  "description": "FORENSIQ - Digital Image Intelligence Platform for forensic analysis",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "build": "echo 'No build required'",
+    "vercel-build": "echo 'No build required'"
+  },
+  "author": "notalex",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
